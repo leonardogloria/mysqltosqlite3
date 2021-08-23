@@ -67,6 +67,6 @@ setup(
     project_urls={"Source": about["__url__"]},
     entry_points="""
         [console_scripts]
-        mysql2sqlite=mysql_to_sqlite3.cli:cli
+        lgloriamysql2sqlite=mysql_to_sqlite3.cli:cli
     """,
 )
